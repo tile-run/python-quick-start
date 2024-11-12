@@ -7,7 +7,7 @@ Extract data from PDFs using Tile's API. Get your API key by signing up for an a
 1. Clone this repository
 2. Create virtual environment:
    ```bash
-   python -m venv venv
+   python -m venv .
    source venv/bin/activate  # On Mac/Linux
    # or
    venv\Scripts\activate     # On Windows
