@@ -10,7 +10,7 @@ load_dotenv()
 
 # Set up your API keys
 TILE_API_KEY = os.getenv("TILE_API_KEY")
-file_path = "/Users/henry/Desktop/pdf-ticket-both-ways.pdf"
+file_path = "sample.jpg"
 
 # 1. Upload the file
 url = "https://api.tile.run/v1/upload"
