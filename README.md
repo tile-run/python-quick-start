@@ -1,6 +1,6 @@
 # Tile API Python Quick Start
 
-Extract data from PDFs using Tile's API. Get your API key by signing up for an account at https://tile.run.
+Extract data from unstructured files (PDFs, images, text) using Tile's API. Get your API key by signing up for an account at https://tile.run.
 
 ## Setup
 
