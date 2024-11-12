@@ -64,6 +64,6 @@ for i in range(60 * 5):  # Poll every second for 5 minutes
             break
         elif response_data["status"] == "FAILED":
             print("Extraction failed")
-            print(response_data["error"])
+            print(response_data)
             break
     time.sleep(1)
