@@ -8,11 +8,11 @@ Extract data from PDFs using Tile's API. Get your API key by signing up for an a
 2. Create virtual environment:
    ```bash
    python -m venv .
-   source venv/bin/activate  # On Mac/Linux
+   source bin/activate  # On Mac/Linux
    # or
-   venv\Scripts\activate     # On Windows
+   Scripts\activate     # On Windows
    ```
 3. Install dependencies: `pip install -r requirements.txt`
 4. Copy your .env.example file and save it as .env. Update the value for the API key.
-5. Update the `file_path` in `main.py` to point to your PDF
+5. Update the `file_path` to the file you want to use. Remember to change the content_type for the reuqest.
 6. Run: `python main.py`

@@ -23,7 +23,7 @@ with open(file_path, "rb") as file:
     base_64_file = base64.b64encode(file.read()).decode("utf-8")
     data = {
         "file_base64": base_64_file,
-        "content_type": "application/pdf",
+        "content_type": "image/jpeg",
     }  # Remember to change this to the correct content type
     response = requests.post(url=url, headers=headers, json=data).json()
     file_id = response["file_id"]
